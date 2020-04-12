@@ -1,0 +1,373 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/**************************
+********header ************
+***************************/
+.header-section{
+	width: 100%;
+	background: url(../images/nbg.png)center top no-repeat;
+	background-size: cover;
+}
+.header-section .logo{
+	padding: 100px 0px 80px 0px;
+}
+.nav-link {
+    display: block;
+    padding: 1rem 3rem;
+    font-size: 20px;
+    color: #ffffff;
+}
+.bar ul li :hover{
+	color:  #ffffff;
+	transition: 1s;
+	border: 0.5px solid #50c3af;
+	background: #50c3af;
+	border-radius: 20px;
+}
+.header-section h1{
+	text-align: center;
+	padding: 140px 0px 100px 0px;
+	color: #ffffff;
+	font-size: 100px;
+}
+.header-section h4{
+	text-align: center;	
+	color: #ffffff;
+	font-size: 23px;
+	padding-bottom: 120px;
+}
+.header-section .btn{
+	margin-left: 360px;
+	margin-bottom: 150px;
+
+}
+.header-section .btn-info {
+    color: #fff;
+    background-color: #50c3af;
+    border:1px solid #50c3af;
+    padding: 20px 60px;
+    border-radius: 30px;
+    font-size: 20px;  
+}
+.btn-div .btn-info:hover{
+	background: transparent;
+	transition: 0.5s;
+}
+/**************************
+****************************
+***************************/
+
+/**************************
+********feature ************
+***************************/
+
+.feature{
+	width: 100%;
+	background:#eeeeef;
+}
+	
+.feature-inner{
+	padding: 70px 0px;
+}
+.feature-inner img{
+	padding-bottom: 30px;
+}
+.feature-inner h4{
+	padding-bottom:15px;
+	color: #40474e;
+}
+.feature-inner p{
+	padding-bottom:10px;
+	color: #787b80;
+	font-size:17px;
+	
+}
+
+/**************************
+****************************
+***************************/
+
+/**************************
+********** typo **********
+***************************/
+.typo-section{
+	width: 100%;
+}
+.typo-inner{
+	padding: 60px 0px;
+}
+.typo-inner img{
+	padding-bottom: 40px;
+}
+.typo-inner h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+	color: #40474e;
+	padding-bottom: 5px;
+}
+.typo-inner hr{
+	
+	height: 4px;
+	padding-bottom: 5px;
+}
+.typo-section p{
+	color: #787b80;
+	font-size:17px;
+	padding-bottom: 15px;
+
+}
+.typo-section .btn-info {
+    color: #fff;
+    background-color: #50c3af;
+    border:1px solid #50c3af;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+ }
+
+/**************************
+****************************
+***************************/
+
+/**************************
+********** about **********
+***************************/
+
+.about-section{
+	width: 100%;
+	background: #eeeeef;
+	padding: 80px 0px;
+}
+.about-section .about-inner{
+
+}
+.about-inner img{
+	padding-right: 10px;
+}
+.about-inner h2{
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #40474e;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.about-inner hr{
+    width: 60%;
+    height: 5px;
+    padding-bottom: 10px;
+}
+.about-inner p{
+    color: #787b80;
+	font-size:17px;
+	padding-bottom: 20px;
+}
+
+.about-inner .btn-info{
+	color:#fff ;
+    background-color: #d2d5da;
+    border:1px solid #d2d5da;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+}
+/**************************
+****************************
+***************************/
+
+/**************************
+********** porfolio *******
+***************************/
+
+.portfolio{
+	width: 100%;
+	padding: 60px 0px;
+
+}
+.port-inner img{
+	padding-bottom: 30px;
+
+}
+.port-inner h4{
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:  #40474e;
+	padding-bottom: 10px;
+
+}
+.port-inner hr{
+	padding-bottom: 20px;
+
+
+}
+.port-inner p{
+	color: #787b80;
+	font-size:17px;
+
+}
+.port-inner a{
+	color: #50c3af;
+	font-size: 18px;
+}
+
+/**************************
+****************************
+***************************/
+
+
+
+/**************************
+********** preview*********
+***************************/
+.preview{
+	background: #eeeeef;
+	width: 100%;
+	padding: 60px 0px;
+}
+.preview-inner h2{
+	font-size: 23px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:  #40474e;
+	padding-bottom: 10px;
+}
+.preview-inner img{
+	padding-right: 20px;
+	
+}
+.preview-inner hr{
+	padding-bottom: 15px;
+}
+.preview-inner p{
+	color: #787b80;
+	font-size:17px;
+	padding-bottom: 15px;
+	
+}
+.preview-inner .btn-info{
+	color:#fff ;
+    background-color: #50c3af;
+    border:1px solid #50c3af;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 20px; 
+}
+
+
+
+/**************************
+****************************
+***************************/
+
+/**************************
+**********session**********
+***************************/
+
+.session{
+	width: 100%;
+	padding: 70px 0px;
+	margin: 0px auto;
+}
+.session-inner h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:  #40474e;
+	padding-bottom: 20px;
+
+}
+.session-inner{
+	padding-top: 40px;
+	
+}
+.session-inner hr{
+	padding-bottom: 15px;
+	
+}
+.session-inner p{
+	color: #787b80;
+	font-size:17px;
+	padding-bottom: 15px;
+	
+}
+.session-inner .btn-info{
+	color:#fff ;
+    background-color: #d2d5da;
+    border:1px solid #d2d5da;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+}
+
+/**************************
+****************************
+***************************/
+
+/**************************
+***********sponsor*********
+***************************/
+
+
+
+
+.sponsor{
+	width: 100%;
+	background: #50c3af;
+	padding: 60px 0px 80px 0px;
+}
+.sponsor-inner h4{
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 550;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.sponsor-inner img{
+	padding-right: 10px;
+}
+.sponsor-inner hr{
+	width: 50%;
+	margin: 0px auto;
+	background: #61c8b6;
+	height: 3px;
+
+}
+.sponsor .sponsor-main{
+	padding-top: 40px;
+}
+
+/**************************
+****************************
+***************************/
+
+/**************************
+*********footer**********
+***************************/
+.footer{
+	width: 100%;
+	padding: 25px 0px; 
+}
+.footer p{
+	color: #787b80;
+}
+.footer span{
+	color: gray;
+}
+.footer img{
+	padding: 0px 8px;
+}
+
+/**************************
+****************************
+***************************/
